@@ -1,0 +1,76 @@
+.container {
+  max-width: 800px;
+  margin: 3rem auto;
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Page Title */
+.title {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: var(--dark-brown);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Paragraph Text */
+.text {
+  font-size: 1.15rem;
+  line-height: 1.85;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* Email Section Box */
+.emailBox {
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  background-color: var(--light-green-bg, #eef7e8);
+  border: 1.5px solid var(--light-green);
+  margin-bottom: 1.5rem;
+}
+
+/* "Email:" label */
+.label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--dark-green);
+  margin-bottom: 0.4rem;
+}
+
+/* Email clickable link */
+.email {
+  font-size: 1.15rem;
+  color: var(--dark-brown);
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.25s ease;
+}
+
+.email:hover {
+  color: var(--dark-green);
+}
+
+/* Response time text */
+.responseTime {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: #444;
+  text-align: center;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

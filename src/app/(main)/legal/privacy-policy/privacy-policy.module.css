@@ -1,0 +1,61 @@
+.container {
+  max-width: 900px;
+  margin: 3rem auto;
+  background-color: #fff;
+  padding: 2.8rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Page Title */
+.title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: var(--dark-brown);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+/* Paragraph Text */
+.text {
+  font-size: 1.15rem;
+  line-height: 1.85;
+  color: #333;
+  margin-bottom: 1.8rem;
+}
+
+/* Section Headers */
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--dark-green);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--light-green);
+  padding-bottom: 0.5rem;
+}
+
+/* Lists */
+.list {
+  margin-left: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.list li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
